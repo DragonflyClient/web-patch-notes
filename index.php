@@ -25,9 +25,9 @@
       <div class="nav">
         <ul>
           <li class="item" onclick="closeMenu()">
-            <a href="#features">Features</a>
+            <a href="/#features">Features</a>
           </li>
-          <li class="item" onclick="closeMenu()"><a href="#faq">FAQ</a></li>
+          <li class="item" onclick="closeMenu()"><a href="../#faq">FAQ</a></li>
           <li class="item" onclick="closeMenu()">
             <a href="/download">Download</a>
           </li>
@@ -54,7 +54,7 @@
           rsort($files);
           foreach($files as $value) {
               if (substr( $value, 0, 1 ) != "." && !endsWith($value, ".png")) {
-                  echo "<div class=\"patch-box\"><a href=\"./patch/$value\">" . substr($value, 1, -5) . "</a>";
+                   echo "<div class=\"patch-box\"><a href=\"./patch/" . substr($value, 0, -5) . "\">" . substr($value, 1, -5) . "</a>";
                   echo "<div class=\"patch-img\" style=\"background-image: url('./patch/" . substr($value, 0, -5) . ".png')\"></div></div>";
               }
           }
@@ -73,6 +73,6 @@
     </div>
     
 </body>
-<script src="./main.js"></script>
+<script src="main.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
 </html>
