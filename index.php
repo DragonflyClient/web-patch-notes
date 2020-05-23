@@ -8,10 +8,12 @@
     <link rel="icon" href="../assets/logo.svg">
     <link rel="stylesheet" href="./patchnotes-style.css">
     <link rel="stylesheet" href="../css/header-style.css">
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 </head>
 
 <body>
-    <div class="header">
+    <div class="header" data-aos="fade-down">
       <div class="upper-wrapper">
         <div class="logo">
           <a href="/"><img src="../assets/logo-header.svg" alt="" /></a>
@@ -25,7 +27,7 @@
       <div class="nav">
         <ul>
           <li class="item" onclick="closeMenu()">
-            <a href="/#features">Features</a>
+            <a href="/">Home</a>
           </li>
           <li class="item" onclick="closeMenu()"><a href="../#faq">FAQ</a></li>
           <li class="item" onclick="closeMenu()">
@@ -45,7 +47,7 @@
         </ul>
       </div>
     </div>
-    <div class="main">
+    <div class="main" data-aos="zoom-in">
       <h1>Patch Notes</h1>
       <div class="wrapper">
         <?php 
@@ -71,8 +73,33 @@
         ?>
       </div>
     </div>
-    
+    <!-- AOS -->
+    <script
+      src="https://unpkg.com/aos@2.3.1/dist/aos.js"
+      type="text/javascript"
+    ></script>
+    <script>
+      AOS.init({
+        // Global settings:
+        disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+        startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
+        initClassName: 'aos-init', // class applied after initialization
+        animatedClassName: 'aos-animate', // class applied on animation
+        useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+        disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+        debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+        throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
+
+        offset: 0,
+        delay: 0,
+        duration: 300,
+        easing: 'ease',
+        once: true,
+        mirror: false,
+        anchorPlacement: 'top',
+      });
+    </script>
+    <script src="main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
 </body>
-<script src="main.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
 </html>
