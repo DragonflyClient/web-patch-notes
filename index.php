@@ -4,19 +4,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Patch Notes</title>
-    <link rel="icon" href="../assets/logo.svg">
-    <link rel="stylesheet" href="./patchnotes-style.css">
-    <link rel="stylesheet" href="../css/header-style.css">
+    <title>Patchnotes | Overview</title>
+    <link rel="icon" href="https://cdn.icnet.dev/web/mcicn/assets/img/svg/logo.svg">
+    <link rel="stylesheet" href="https://cdn.icnet.dev/web/mcicn/patchnotes/css/patchnotes-style.css">
+    <link rel="stylesheet" href="https://cdn.icnet.dev/web/mcicn/css/header-style.css">
     <!-- AOS -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 </head>
 
 <body>
-    <div class="header" data-aos="fade-down">
+    <div class="header" data-aos="fade-down" id="navbar">
       <div class="upper-wrapper">
         <div class="logo">
-          <a href="/"><img src="../assets/logo-header.svg" alt="" /></a>
+          <a href="/"><img src="https://cdn.icnet.dev/web/mcicn/assets/img/svg/logo-header.svg" alt="" class="logo-img"/></a>
         </div>
         <div class="ham-wrapper">
           <div class="line line1"></div>
@@ -24,7 +24,7 @@
           <div class="line line3"></div>
         </div>
       </div>
-      <div class="nav">
+      <div class="nav" id="nav">
         <ul>
           <li class="item" onclick="closeMenu()">
             <a href="/">Home</a>
@@ -48,7 +48,7 @@
       </div>
     </div>
     <div class="main" data-aos="zoom-in">
-      <h1>Patch Notes</h1>
+      <h1>Patchnotes</h1>
       <div class="wrapper">
         <?php 
           $dir    = 'patch';
@@ -99,7 +99,7 @@
         anchorPlacement: 'top',
       });
     </script>
-    <script src="main.js"></script>
+    <script src="https://cdn.icnet.dev/web/mcicn/patchnotes/js/main.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
 </body>
 </html>
