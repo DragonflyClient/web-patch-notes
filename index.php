@@ -17,7 +17,7 @@
       <div class="header" data-aos="fade-down" id="navbar">
          <div class="upper-wrapper">
             <div class="logo">
-               <a href="/"><img src="https://cdn.icnet.dev/web/mcicn/assets/img/svg/logo-header.svg" alt="" class="logo-img" /></a>
+               <a href="/"><img src="../assets/Dragon.png" alt="" class="logo-img" /></a>
             </div>
             <div class="ham-wrapper">
                <div class="line line1"></div>
