@@ -28,11 +28,11 @@
          <div class="nav" id="nav">
             <ul>
                <li class="item" onclick="closeMenu()">
-                  <a href="/">Home</a>
+                  <a href="/dragonfly">Home</a>
                </li>
-               <li class="item" onclick="closeMenu()"><a href="../#faq">FAQ</a></li>
+               <li class="item" onclick="closeMenu()"><a href="/dragonfly/#faq">FAQ</a></li>
                <li class="item" onclick="closeMenu()">
-                  <a href="/download">Download</a>
+                  <a href="/dragonfly/download">Download</a>
                </li>
                <div class="socials">
                   <a href="https://instagram.com/inceptioncloud" target="_blank">
