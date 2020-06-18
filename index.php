@@ -5,10 +5,10 @@
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Patchnotes | Overview</title>
-      <link rel="icon" href="https://cdn.icnet.dev/web/mcicn/assets/img/svg/logo.svg">
-      <link rel="stylesheet" href="https://cdn.icnet.dev/web/mcicn/patchnotes/css/patchnotes-style.css">
-      <link rel="stylesheet" href="https://cdn.icnet.dev/web/mcicn/css/header-style.css">
-      <link rel="stylesheet" href="https://cdn.icnet.dev/web/mcicn/patchnotes/css/fonts.css">
+      <link rel="icon" href="../assets/Dragon.svg">
+      <link rel="stylesheet" href="https://cdn.icnet.dev/web/drgn/patchnotes/css/patchnotes-style.css">
+      <link rel="stylesheet" href="https://cdn.icnet.dev/web/drgn/css/header-style.css">
+      <link rel="stylesheet" href="https://cdn.icnet.dev/web/drgn/patchnotes/css/fonts.css">
       <!-- AOS -->
       <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
    </head>
@@ -101,7 +101,7 @@
               anchorPlacement: 'top',
           });
       </script>
-      <script src="https://cdn.icnet.dev/web/mcicn/patchnotes/js/main.js"></script>
+      <script src="https://cdn.icnet.dev/web/drgn/patchnotes/js/main.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
    </body>
 </html>
