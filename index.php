@@ -9,6 +9,7 @@
       <link rel="stylesheet" href="https://cdn.icnet.dev/web/drgn/patchnotes/css/patchnotes-style.css">
       <link rel="stylesheet" href="https://cdn.icnet.dev/web/drgn/css/header-style.css">
       <link rel="stylesheet" href="https://cdn.icnet.dev/web/drgn/patchnotes/css/fonts.css">
+      <meta name="description" content="All information about updates to the Dragonfly modification">
       <!-- AOS -->
       <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
    </head>
@@ -39,8 +40,7 @@
                      <i class="fab fa-instagram"></i
                      ></a>
                   <a href="https://twitter.com/inceptioncloud" target="_blank">
-                     <i class="fab fa-twitter"></i
-                     ></a>
+                     <i class="fab fa-twitter"></i></a>
                   <a href="https://discord.gg/VS2eN2z" target="_blank">
                      <i class="fab fa-discord"></i
                      ></a>
