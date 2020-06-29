@@ -135,6 +135,13 @@ code
     font-size: 15px;
     font-family: JetBrainsMono, monospace;
 }
+
+.data-protection-heading
+{
+    margin-top: 40px;
+    text-align: left;
+    display: inline-block;
+}
 @media (min-width: 650px)
 {
     #title-block-header
