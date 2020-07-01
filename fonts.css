@@ -1,10 +1,10 @@
 @font-face
 {
     font-family: "JetBrainsMono";
-    src: url("https://cdn.icnet.dev/web/mcicn/patchnotes/css/JetBrainsMono-1.0.3/web/woff2/JetBrainsMono-Regular.woff2");
+    src: url("https://cdn.icnet.dev/web/drgn/patchnotes/css/JetBrainsMono-1.0.3/web/woff/JetBrainsMono-Regular.woff");
 }
 @font-face
 {
     font-family: "JetBrains-Mono-Medium";
-    src: url("https://cdn.icnet.dev/web/mcicn/patchnotes/css/JetBrainsMono-1.0.3/web/woff2/JetBrainsMono-Medium.woff2");
+    src: url("https://cdn.icnet.dev/web/drgn/patchnotes/css/JetBrainsMono-1.0.3/web/woff/JetBrainsMono-Medium.woff");
 }

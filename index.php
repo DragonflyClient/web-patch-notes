@@ -76,32 +76,11 @@
          </div>
       </div>
       <!-- AOS -->
-      <script
-            src="https://unpkg.com/aos@2.3.1/dist/aos.js"
-            type="text/javascript"
-      ></script>
-      <script>
-          AOS.init({
-              // Global settings:
-              disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
-              startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
-              initClassName: 'aos-init', // class applied after initialization
-              animatedClassName: 'aos-animate', // class applied on animation
-              useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
-              disableMutationObserver: false, // disables automatic mutations' detections (advanced)
-              debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
-              throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
-
-              offset: 0,
-              delay: 0,
-              duration: 300,
-              easing: 'ease',
-              once: true,
-              mirror: false,
-              anchorPlacement: 'top',
-          });
-      </script>
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js" type="text/javascript"></script>
+      <script src="https://cdn.icnet.dev/web/drgn/js/aos.js"></script>
       <script src="https://cdn.icnet.dev/web/drgn/patchnotes/js/main.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
    </body>
 </html>

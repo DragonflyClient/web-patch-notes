@@ -133,7 +133,20 @@ code
     border-radius: 6px;
     padding: 0 4px;
     font-size: 15px;
-    font-family: JetBrainsMono, monospace;
+    font-family: JetBrainsMono;
+}
+blockquote {
+    position: relative;
+    margin-left: 20px;
+}
+blockquote:before {
+    content: '';
+    height: 100%;
+    width: 5px;
+    background: lightgray;
+    position: absolute;
+    top: 0;
+    left: -20px;
 }
 
 .data-protection-heading

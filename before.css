@@ -54,3 +54,10 @@ body, html
     text-decoration: none;
     color: #000
 }
+
+@media (max-width: 650px)
+{
+    .btp {
+        margin-top: -15px;
+    }
+}
