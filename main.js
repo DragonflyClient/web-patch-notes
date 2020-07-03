@@ -29,7 +29,8 @@ function scrollToTop() {
 window.addEventListener("scroll", function () {
   const logoImg = document.querySelector("#logo a")
   if (document.documentElement.scrollTop > 0) {
-    logoImg.setAttribute("href", "#")
+   /* logoImg.setAttribute("href", "''")*/
+    logoImg.removeAttribute("href")
   } else {
     logoImg.setAttribute("href", "https://inceptioncloud.net/dragonfly")
   }
