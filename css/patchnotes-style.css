@@ -44,7 +44,7 @@ a {
 }
 
 .main {
-    margin: 120px auto;
+    margin: 40px auto;
     width: 65%
 }
 
@@ -113,7 +113,9 @@ a {
     border: 5px solid var(--clr-plight);
     font-size: 50px
 }
-
+.dfo {
+    display: none;
+}
 @media (max-width:640px) {
     .nav {
         transition: .5s cubic-bezier(.98, -.25, .27, 1)
@@ -153,7 +155,7 @@ a {
 }
 @media (max-width: 640px) {
     .main {
-        margin-top: 75px;
+        margin-top: 25px;
     }
 }
 

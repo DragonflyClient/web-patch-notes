@@ -13,13 +13,14 @@ function toggleNav() {
     if (nav.classList.contains("nav-active")) {
         setTimeout(function () {
             nav.style.display = "none"
-            console.log("here")
-        }, 400)
+            nav.style.position = "fixed"
+        }, 350)
     } else {
-        if(nav.classList.contains("dfo")) {
+        if (nav.classList.contains("dfo")) {
             nav.classList.remove("dfo")
         }
         nav.style.display = "flex"
+        nav.style.position = "sticky"
     }
     setTimeout(function () {
         nav.classList.toggle('nav-active');
@@ -38,6 +39,11 @@ function scrollToTop() {
     $("html, body").animate({scrollTop: 0}, 400)
     closeMenu()
 }
+window.addEventListener("load", function () {
+    if (!document.getElementById("news")) {
+        nav.style.position = "fixed"
+    }
+})
 
 window.addEventListener("resize", function () {
     // Nav

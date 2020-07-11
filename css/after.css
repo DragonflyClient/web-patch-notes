@@ -14,10 +14,6 @@
     --clr-primary: #ef852e;
     --clr-plight: #FFC247
 }
-footer {
-    background-color: var(--clr-bg);
-    color: white;
-}
 footer * {
     padding: 0;
     margin: 0;
@@ -29,7 +25,19 @@ footer ul {
     padding: 0;
     margin: 0;
 }
-.f-upper {
+#footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+footer
+{
+    background-color: var(--clr-bg);
+    color: white;
+}
+
+.f-upper
+{
     width: 60%;
     padding-top: 30px;
     margin: 0 auto;
@@ -39,66 +47,114 @@ footer ul {
     flex-wrap: wrap;
     display: flex;
 }
-.f-desc img {
+
+.f-desc img
+{
     margin-top: -10px;
+    margin-bottom: 10px;
     width: 80px;
     cursor: pointer;
 }
-.f-desc p {
+
+.f-desc p
+{
     max-width: 350px;
     font-size: 20px;
 }
-.f-desc p:last-child {
+
+.f-desc p:last-child
+{
     margin-top: 10px;
     font-size: 17px;
 }
-.f-links {
+
+.f-links
+{
     margin-top: 20px;
     padding-right: 20px;
 }
-.f-links h3 {
+
+.f-links h3
+{
     margin-bottom: 15px;
     font-size: 19px;
     font-weight: 500;
     text-transform: uppercase;
 }
-.f-links ul {
+
+.f-links ul
+{
     position: relative;
 }
 
-.f-links h3 span {
+.f-links h3 span
+{
     display: block;
     font-size: 14px;
     font-weight: 400;
 }
-.f-links li {
+
+.f-links li
+{
+    font-size: 16px;
     margin: 9px 0;
     cursor: pointer;
 }
-.f-lower {
+
+.f-lower
+{
     text-align: center;
     color: #FFFFFF;
 }
-.f-lower h4 {
+
+.f-lower h4
+{
     font-weight: 400;
     font-size: 20px;
     padding-bottom: 30px;
 }
-.f-upper a {
+
+.f-upper a
+{
     color: var(--clr-primary);
-    transition: color .2s linear;
 }
-.f-upper a:hover {
+
+.f-upper a:hover
+{
     color: #d4d0d0;
 }
-.links-wrapper {
+
+.f-socials a
+{
+    transition: all .2s ease;
+}
+
+.f-insta:hover
+{
+    color: #E1306C;
+}
+
+.f-twitter:hover
+{
+    color: #1da1f2;
+}
+
+.f-discord:hover
+{
+    color: #7289da;
+}
+
+.links-wrapper
+{
     display: flex;
     align-items: baseline;
     justify-content: space-between;
     width: 50%;
     flex-wrap: wrap;
 }
-.f-socials {
+
+.f-socials
+{
     display: inline-block;
     padding-top: 30px;
     width: 60%;
@@ -107,45 +163,65 @@ footer ul {
     justify-content: space-between;
     padding-bottom: 30px;
 }
-.f-socials a {
+
+.f-socials a
+{
     color: white;
     font-size: 25px;
 }
-.f-socials a + a {
+
+.f-socials a + a
+{
     margin-left: 50px;
 }
-.f-socials h3 {
+
+.f-socials h3
+{
     margin-bottom: 15px;
     font-weight: 400;
+    font-size: 25px;
 }
 
-footer a[href=""] {
+footer a[href=""]
+{
     display: none;
 }
 @media (max-width: 800px)
 {
-    .f-upper {
+    .f-upper
+    {
         width: 90%;
     }
-    .f-socials {
+
+    .f-socials
+    {
         width: 90%;
     }
-    .f-socials h3 {
+
+    .f-socials h3
+    {
         font-size: 20px;
     }
-    .f-socials a {
+
+    .f-socials a
+    {
         font-size: 23px;
     }
 }
-@media (max-width: 1200px) {
-    .f-desc {
+@media (max-width: 1200px)
+{
+    .f-desc
+    {
         width: 100%;
     }
 
-    .f-links {
+    .f-links
+    {
         margin-top: 40px;
     }
-    .links-wrapper {
+
+    .links-wrapper
+    {
         width: 100%;
     }
 }
