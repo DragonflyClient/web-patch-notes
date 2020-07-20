@@ -116,6 +116,21 @@ a {
 .dfo {
     display: none;
 }
+
+/* swal popup */
+.swal2-confirm {
+    background-color: var(--clr-primary) !important;
+}
+.swal2-info {
+    color: var(--clr-primary) !important;
+    border-color: var(--clr-primary) !important;
+}
+.swal2-title {
+    font-weight: 500 !important;
+}
+.swal2-popup {
+    letter-spacing: -1px !important;
+}
 @media (max-width:640px) {
     .nav {
         transition: .5s cubic-bezier(.98, -.25, .27, 1)

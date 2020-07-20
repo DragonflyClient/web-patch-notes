@@ -29,6 +29,26 @@ function toggleNav() {
     }, 5)
 }
 
+// Show popup when url contains "patchnotes/patch"
+let popupShown = false
+window.addEventListener('load', function () {
+    console.log(window.location.href.indexOf('patchnotes'))
+    if(window.location.href.indexOf('patchnotes') > -1 && localStorage.getItem("popupShown") !== "true") {
+        console.log(window.location.href)
+        setTimeout(function () {
+            Swal.fire({
+                icon: 'info',
+                title: 'Patch Notes have moved!',
+                html:
+                    'Click <a href="../releasenotes" style="color: #ef852e">here</a>, ' +
+                    'to take a look at the new place of the release notes'
+            })
+        }, 850)
+    }
+    popupShown = true
+    localStorage.setItem("popupShown", "true")
+})
+
 // Close the nav menu
 function closeMenu(e) {
     nav.classList.remove('nav-active');
