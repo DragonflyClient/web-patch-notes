@@ -2,8 +2,10 @@ const nav = document.querySelector('.nav');
 const ham = document.querySelector('.ham-wrapper');
 const socials = document.querySelector('.socials');
 
-nav.classList.remove('nav-active');
-ham.classList.remove('ham-active');
+if (nav.classList.contains('nav-active')) {
+    nav.classList.remove('nav-active');
+    ham.classList.remove('ham-active');
+}
 
 // Hamburger Menu
 ham.addEventListener('click', toggleNav);
@@ -33,7 +35,7 @@ function toggleNav() {
 let popupShown = false
 window.addEventListener('load', function () {
     console.log(window.location.href.indexOf('patchnotes'))
-    if(window.location.href.indexOf('patchnotes') > -1 && localStorage.getItem("popupShown") !== "true") {
+    if (window.location.href.indexOf('patchnotes') > -1 && localStorage.getItem("popupShown") !== "true") {
         console.log(window.location.href)
         setTimeout(function () {
             Swal.fire({
@@ -56,7 +58,7 @@ function closeMenu(e) {
 }
 
 function scrollToTop() {
-    $("html, body").animate({scrollTop: 0}, 400)
+    $("html, body").animate({ scrollTop: 0 }, 400)
     closeMenu()
 }
 window.addEventListener("load", function () {

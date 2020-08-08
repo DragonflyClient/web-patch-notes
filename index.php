@@ -11,7 +11,7 @@
       <link rel="stylesheet" href="https://cdn.icnet.dev/web/drgn/patchnotes/css/fonts.css">
       <meta name="description" content="All information about updates to the Dragonfly modification">
       <link rel="stylesheet" href="https://cdn.icnet.dev/web/drgn/css/style.css">
-      <meta name="keywords" content="Minecraft, InceptionCloud, Modifiaction, Minecraftmod, Dragonfly, IC, ICN, Release, Patchnotes, Minecraft 1.8.8">
+      <meta name="keywords" content="Minecraft, InceptionCloud, Modifiaction, Minecraftmod, Dragonfly, IC, ICN, Release, Patchnotes,">
       <!-- IONICONS -->
       <script type="module" src="https://unpkg.com/ionicons@5.1.2/dist/ionicons/ionicons.esm.js"></script>
       <script nomodule="" src="https://unpkg.com/ionicons@5.1.2/dist/ionicons/ionicons.js"></script>
@@ -21,37 +21,6 @@
 
    <body>
       <div class="header" data-aos="fade-down" id="navbar" style="width: 100vw">
-         <div class="upper-wrapper">
-            <div class="logo">
-               <a href="https://inceptioncloud.net/dragonfly"><img src="../assets/Dragon.png" alt="" class="logo-img" /></a>
-            </div>
-            <div class="ham-wrapper">
-               <div class="line line1"></div>
-               <div class="line line2"></div>
-               <div class="line line3"></div>
-            </div>
-         </div>
-         <div class="nav" id="nav" style="font-size: 20px;">
-            <ul>
-               <li class="item" onclick="closeMenu()">
-                  <a href="https://inceptioncloud.net/dragonfly">Home</a>
-               </li>
-               <li class="item" onclick="closeMenu()"><a href="https://icnet.dev/discord">Discord</a></li>
-               <li class="item" onclick="closeMenu()">
-                  <a href="/dragonfly/download">Download</a>
-               </li>
-               <div class="socials">
-                  <a href="https://instagram.com/inceptioncloud" target="_blank">
-                     <i class="fab fa-instagram"></i
-                     ></a>
-                  <a href="https://twitter.com/inceptioncloud" target="_blank">
-                     <i class="fab fa-twitter"></i></a>
-                  <a href="https://discord.gg/VS2eN2z" target="_blank">
-                     <i class="fab fa-discord"></i
-                     ></a>
-               </div>
-            </ul>
-         </div>
       </div>
       <div class="main" data-aos="zoom-out-up">
          <h1>Release Notes</h1>
@@ -87,6 +56,7 @@
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
       <script>
           $("#footer").load("https://cdn.icnet.dev/web/drgn/components/footer.html");
+          $("#navbar").load("https://cdn.icnet.dev/web/drgn/components/header.html");
       </script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
       <!-- Optional: include a polyfill for ES6 Promises for IE11 -->
@@ -95,5 +65,6 @@
       <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
       <script>let els = document.getElementsByClassName("patch-box"); let count = 1; Array.prototype.forEach.call(els, function(el) {el.setAttribute("data-aos-delay", 200 * count);count++; console.log(200 * count)});</script>
       <script src="https://cdn.icnet.dev/web/drgn/patchnotes/js/main.js"></script>
+      <script src="https://cdn.icnet.dev/web/drgn/js/common.js"></script>
    </body>
 </html>
