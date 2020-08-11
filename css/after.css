@@ -1,233 +1,199 @@
 :root {
-    /* BLUE
-    --clr-fg: #efefef;
-    --clr-bg: #1c3e5b;
-    --clr-pdark: #027bce;
-    --clr-primary: #0495ff;
-    --clr-plight: #4bb3fd
-    */
-
-    /* ORANGE */
     --clr-fg: #EFF1F3;
     --clr-bg: #37393A;
     --clr-pdark: #DE4F3F;
     --clr-primary: #ef852e;
     --clr-plight: #FFC247
 }
+
 footer * {
     padding: 0;
-    margin: 0;
+    margin: 0
 }
+
 footer li {
-    list-style: none;
+    list-style: none
 }
+
 footer ul {
     padding: 0;
-    margin: 0;
+    margin: 0
 }
+
 #footer {
     position: relative;
     bottom: 0;
-    width: 100%;
-}
-footer
-{
-    background-color: var(--clr-bg);
-    color: white;
+    width: 100%
 }
 
-.f-upper
-{
+footer {
+    background-color: var(--clr-bg);
+    color: #fff
+}
+
+.f-upper {
     width: 60%;
     padding-top: 30px;
     margin: 0 auto;
     min-height: 230px;
     justify-content: space-around;
-    /*align-items: center;*/
     flex-wrap: wrap;
-    display: flex;
+    display: flex
 }
 
-.f-desc img
-{
+.f-desc img {
     margin-top: -10px;
     margin-bottom: 10px;
     width: 80px;
-    cursor: pointer;
+    cursor: pointer
 }
 
-.f-desc p
-{
+.f-desc p {
     max-width: 350px;
-    font-size: 20px;
+    font-size: 20px
 }
 
-.f-desc p:last-child
-{
+.f-desc p:last-child {
     margin-top: 10px;
-    font-size: 17px;
+    font-size: 17px
 }
 
-.f-links
-{
+.f-links {
     margin-top: 20px;
-    padding-right: 20px;
+    padding-right: 20px
 }
 
-.f-links h3
-{
+.f-links h3 {
     margin-bottom: 15px;
     font-size: 19px;
     font-weight: 500;
-    text-transform: uppercase;
+    text-transform: uppercase
 }
 
-.f-links ul
-{
-    position: relative;
+.f-links ul {
+    position: relative
 }
 
-.f-links h3 span
-{
+.f-links h3 span {
     display: block;
     font-size: 14px;
-    font-weight: 400;
+    font-weight: 400
 }
 
-.f-links li
-{
+.f-links li {
     font-size: 16px;
     margin: 9px 0;
-    cursor: pointer;
+    cursor: pointer
 }
 
-.f-lower
-{
+.f-lower {
     text-align: center;
-    color: #FFFFFF;
+    color: #fff
 }
 
-.f-lower h4
-{
+.f-lower h4 {
     font-weight: 400;
     font-size: 20px;
-    padding-bottom: 30px;
+    padding-bottom: 30px
 }
 
-.f-upper a
-{
-    color: var(--clr-primary);
+.f-upper a {
+    color: var(--clr-primary)
 }
 
-.f-upper a:hover
-{
-    color: #d4d0d0;
+.f-upper a:hover {
+    color: #d4d0d0
 }
 
-.f-socials a
-{
-    transition: all .2s ease;
+.f-socials a {
+    transition: all .2s ease
 }
 
-.f-insta:hover
-{
-    color: #E1306C;
+.f-insta:hover {
+    color: #e1306c
 }
 
-.f-twitter:hover
-{
-    color: #1da1f2;
+.f-twitter:hover {
+    color: #1da1f2
 }
 
-.f-discord:hover
-{
-    color: #7289da;
+.f-discord:hover {
+    color: #7289da
 }
 
-.links-wrapper
-{
+.links-wrapper {
     display: flex;
     align-items: baseline;
     justify-content: space-between;
     width: 50%;
-    flex-wrap: wrap;
+    flex-wrap: wrap
 }
 
-.f-socials
-{
+.f-socials {
     display: inline-block;
     padding-top: 30px;
     width: 60%;
-    border-top: 2px solid white;
+    border-top: 2px solid #fff;
     margin: 20px auto 0 auto;
     justify-content: space-between;
-    padding-bottom: 30px;
+    padding-bottom: 30px
 }
 
-.f-socials a
-{
-    color: white;
-    font-size: 25px;
+.f-socials a {
+    color: #fff;
+    font-size: 25px
 }
 
-.f-socials a + a
-{
-    margin-left: 50px;
+.f-socials a+a {
+    margin-left: 50px
 }
 
-.f-socials h3
-{
+.f-socials h3 {
     margin-bottom: 15px;
     font-weight: 400;
-    font-size: 25px;
+    font-size: 25px
 }
 
-footer a[href=""]
-{
-    display: none;
+footer a[href=""] {
+    display: none
 }
-@media (max-width: 800px)
-{
-    .f-upper
-    {
-        width: 90%;
+
+@media (max-width:800px) {
+    .f-upper {
+        width: 90%
     }
 
-    .f-socials
-    {
-        width: 90%;
+    .f-socials {
+        width: 90%
     }
 
-    .f-socials h3
-    {
-        font-size: 20px;
+    .f-socials h3 {
+        font-size: 20px
     }
 
-    .f-socials a
-    {
-        font-size: 23px;
+    .f-socials a {
+        font-size: 23px
     }
 }
-@media (max-width: 1200px)
-{
-    .f-desc
-    {
-        width: 100%;
+
+@media (max-width:1200px) {
+    .f-desc {
+        width: 100%
     }
 
-    .f-links
-    {
-        margin-top: 40px;
+    .f-links {
+        margin-top: 40px
     }
 
-    .links-wrapper
-    {
-        width: 100%;
+    .links-wrapper {
+        width: 100%
     }
 }
-@media (max-width: 1600px)
-{
-    .f-upper, .f-socials {
-        width: 85%;
+
+@media (max-width:1600px) {
+
+    .f-socials,
+    .f-upper {
+        width: 85%
     }
 }

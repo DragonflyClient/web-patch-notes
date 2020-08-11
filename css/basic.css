@@ -1,31 +1,24 @@
 :root {
-    /* BLUE
-    --clr-fg: #efefef;
-    --clr-bg: #1c3e5b;
-    --clr-pdark: #027bce;
-    --clr-primary: #0495ff;
-    --clr-plight: #4bb3fd
-    */
-
-    /* ORANGE */
     --clr-fg: #EFF1F3;
     --clr-bg: #37393A;
     --clr-pdark: #DE4F3F;
     --clr-primary: #EF852E;
     --clr-plight: #FFC247
 }
-body
-{
-    background-color: #fff;
+
+body {
+    background-color: #fff
 }
 
-.nav ul
-{
+.nav ul {
     margin: 0
 }
 
-h1
-{
+strong {
+    font-weight: 500
+}
+
+h1 {
     font-size: 35px;
     margin: 0;
     text-align: center
@@ -33,28 +26,24 @@ h1
 
 h1,
 h2,
-h3
-{
+h3 {
     font-weight: 500;
     letter-spacing: -1px
 }
 
-h2
-{
+h2 {
     font-size: 30px;
     margin-top: 50px;
     position: relative
 }
 
-h3
-{
+h3 {
     font-size: 26px;
     margin: 0;
     font-weight: 500
 }
 
-h2::after
-{
+h2::after {
     content: "";
     width: 100%;
     height: 3px;
@@ -64,21 +53,18 @@ h2::after
     bottom: -10px
 }
 
-a
-{
+a {
     text-decoration: none;
     line-height: 25px;
     color: var(--clr-primary)
 }
 
-p:nth-child(4)
-{
+p:nth-child(4) {
     text-align: center;
     margin: 10px
 }
 
-#content img
-{
+#content img {
     display: block;
     margin: 50px auto;
     height: auto;
@@ -88,91 +74,82 @@ p:nth-child(4)
     background-color: #000
 }
 
-figcaption
-{
+figcaption {
     color: rgba(0, 0, 0, .5);
     text-align: right;
     font-size: 18px
 }
 
-#title-block-header
-{
+#title-block-header {
     margin: 0 !important
 }
 
-#title-block-header h1
-{
+#title-block-header h1 {
     margin-bottom: 0;
     text-align: center;
     font-size: 25px;
     font-weight: 400
 }
 
-#content
-{
+#content {
     font-size: 20px;
     padding: 0 25%;
     margin-bottom: 100px;
     margin-top: 30px
 }
 
-#content .btp
-{
-    margin-bottom: 30px;
+#content .btp {
+    margin-bottom: 30px
 }
 
-.pp-main
-{
+.pp-main {
     width: 60%;
     margin: 0 auto
 }
-code
-{
+
+code {
     color: #333;
     background-color: #efefef;
     border-radius: 6px;
     padding: 0 4px;
     font-size: 15px;
-    font-family: JetBrainsMono;
+    font-family: JetBrainsMono
 }
+
 blockquote {
     position: relative;
-    margin-left: 20px;
+    margin-left: 20px
 }
+
 blockquote:before {
     content: '';
     height: 100%;
     width: 5px;
-    background: lightgray;
+    background: #d3d3d3;
     position: absolute;
     top: 0;
-    left: -20px;
+    left: -20px
 }
 
-.data-protection-heading
-{
+.data-protection-heading {
     margin-top: 40px;
     text-align: left;
-    display: inline-block;
+    display: inline-block
 }
-@media (min-width: 650px)
-{
-    #title-block-header
-    {
+
+@media (min-width:650px) {
+    #title-block-header {
         margin-top: 120px
     }
 }
 
-@media (max-width: 1050px)
-{
-    #content
-    {
+@media (max-width:1050px) {
+    #content {
         padding: 0 5%;
         font-size: 17px
     }
 
-    .pp-main
-    {
+    .pp-main {
         width: 90%
     }
 }

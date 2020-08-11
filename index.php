@@ -10,9 +10,9 @@
       <link rel="stylesheet" href="https://cdn.icnet.dev/web/drgn/css/header-style.css">
       <link rel="stylesheet" href="https://cdn.icnet.dev/web/drgn/patchnotes/css/fonts.css">
       <meta name="description" content="All information about updates to the Dragonfly modification">
-      <link rel="stylesheet" href="https://cdn.icnet.dev/web/drgn/css/style.css">
       <meta name="keywords" content="Minecraft, InceptionCloud, Modifiaction, Minecraftmod, Dragonfly, IC, ICN, Release, Patchnotes,">
       <meta name="description" content="Latest news about the Dragonfly Minecraft modification">
+      <link rel="stylesheet" href="https://cdn.icnet.dev/web/drgn/components/css/footer.css">
       <!-- IONICONS -->
       <script type="module" src="https://unpkg.com/ionicons@5.1.2/dist/ionicons/ionicons.esm.js"></script>
       <script nomodule="" src="https://unpkg.com/ionicons@5.1.2/dist/ionicons/ionicons.js"></script>
