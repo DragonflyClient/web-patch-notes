@@ -12,6 +12,7 @@
       <meta name="description" content="All information about updates to the Dragonfly modification">
       <link rel="stylesheet" href="https://cdn.icnet.dev/web/drgn/css/style.css">
       <meta name="keywords" content="Minecraft, InceptionCloud, Modifiaction, Minecraftmod, Dragonfly, IC, ICN, Release, Patchnotes,">
+      <meta name="description" content="Latest news about the Dragonfly Minecraft modification">
       <!-- IONICONS -->
       <script type="module" src="https://unpkg.com/ionicons@5.1.2/dist/ionicons/ionicons.esm.js"></script>
       <script nomodule="" src="https://unpkg.com/ionicons@5.1.2/dist/ionicons/ionicons.js"></script>
@@ -21,6 +22,60 @@
 
    <body>
       <div class="header" data-aos="fade-down" id="navbar" style="width: 100vw">
+        <div class="upper-wrapper">
+    <div class="logo" id="logo">
+        <a href="/" onclick="scrollToTop()"><img class="logo-img" src="https://playdragonfly.net/assets/Dragon.png"
+                alt="" /></a>
+    </div>
+    <div class="ham-wrapper">
+        <div class="line line1"></div>
+        <div class="line line2"></div>
+        <div class="line line3"></div>
+    </div>
+</div>
+<div style="font-size: 19px" class="nav dfo" id="nav">
+    <ul>
+        <li class="item" onclick="closeMenu()">
+            <a href="https://playdragonfly.net">Home</a>
+        </li>
+        <li class="item" onclick="closeMenu()">
+            <a href="https://ideas.playdragonfly.net/">Ideas</a>
+        </li>
+        <li class="item" onclick="closeMenu()">
+            <a href="https://playdragonfly.net/patchnotes">Updates</a>
+        </li>
+        <li class="item" onclick="closeMenu()">
+            <a href="https://playdragonfly.net/download">Download</a>
+        </li>
+        <li class="item dropdown dropdown-account">
+            <a id="drgn-account-login" href="#">
+                <div class="drgn-information" onclick="toggleDropdown(this)">
+                    <span style="pointer-events: none;" id="drgn-accountname" class="dropbtn">Log in</span><span
+                        style="pointer-events: none;" id="drgn-accountname-icon"><i
+                            class="fas fa-angle-down"></i></span>
+                </div>
+                <div id="myDropdown" class="dropdown-content">
+                    <div class="dropdown-item" href="#" onclick="logOut()" data-toggle="modal"
+                        data-target="#logoutModal">
+                        <i class="fas fa-sign-out-alt"></i>
+                        Logout
+                    </div>
+                </div>
+            </a>
+        </li>
+        <div class="socials">
+            <a href="https://instagram.com/inceptioncloud">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://twitter.com/inceptioncloud">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a href="https://discord.gg/VS2eN2z">
+                <i class="fab fa-discord"></i>
+            </a>
+        </div>
+    </ul>
+</div>
       </div>
       <div class="main" data-aos="zoom-out-up">
          <h1>Release Notes</h1>
@@ -54,9 +109,8 @@
       <script src="https://unpkg.com/aos@2.3.1/dist/aos.js" type="text/javascript"></script>
       <script src="https://cdn.icnet.dev/web/drgn/js/aos.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-      <script>
+      <script async>
           $("#footer").load("https://cdn.icnet.dev/web/drgn/components/footer.html");
-          $("#navbar").load("https://cdn.icnet.dev/web/drgn/components/header.html");
       </script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
       <!-- Optional: include a polyfill for ES6 Promises for IE11 -->
