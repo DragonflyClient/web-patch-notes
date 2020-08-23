@@ -2,6 +2,17 @@
 <html lang="en">
 
    <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-175235387-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+
+      gtag('config', 'UA-175235387-1');
+    </script>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Release Notes | Overview</title>
@@ -18,6 +29,7 @@
       <script nomodule="" src="https://unpkg.com/ionicons@5.1.2/dist/ionicons/ionicons.js"></script>
       <!-- AOS -->
       <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+      
    </head>
 
    <body>
@@ -117,7 +129,11 @@
       <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
       <script src="https://cdn.jsdelivr.net/npm/promise-polyfill"></script>
       <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
-      <script>let els = document.getElementsByClassName("patch-box"); let count = 1; Array.prototype.forEach.call(els, function(el) {el.setAttribute("data-aos-delay", 200 * count);count++; console.log(200 * count)});</script>
+      <script>let els = document.getElementsByClassName("patch-box"); let count = 1; Array.prototype.forEach.call(els, function(el) {el.setAttribute("data-aos-delay", 200 * count);count++; console.log(200 * count)});$(function() {AOS.init();});
+    </script>
+    
+    <script>
+    </script>
       <script src="https://cdn.icnet.dev/web/drgn/patchnotes/js/main.js"></script>
       <script src="https://cdn.icnet.dev/web/drgn/js/common.js"></script>
    </body>
