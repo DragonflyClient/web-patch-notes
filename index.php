@@ -33,7 +33,7 @@
    </head>
 
    <body>
-      <div class="header" data-aos="fade-down" id="navbar" style="width: 100vw">
+      <div class="header" data-aos="fade-down" id="navbar" style="width: 100%">
         <div class="upper-wrapper">
     <div class="logo" id="logo">
         <a href="/" onclick="scrollToTop()"><img class="logo-img" src="https://playdragonfly.net/assets/Dragon.png"
